@@ -9,8 +9,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".Updatedebit"></activity>
+        <activity android:name=".UpdateCredit" />
+        <activity android:name=".AddCredit" />
+        <activity android:name=".CardDetails" />
+        <activity android:name=".AddDebit" />
         <activity android:name=".Drawer" />
         <activity android:name=".RegisterActivity" />
+
+
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
